@@ -29,24 +29,6 @@ The final dashboard allows stakeholders to quickly identify growth opportunities
 
 ---
 
-## 🗂️ Project Structure
-
-pizza-sales-dashboard/
-│
-├── README.md
-├── dashboard/              # Dashboard screenshots
-├── assets/                 # Icons and images used in Power BI
-├── data/                   # Dataset
-├── sql/                    # SQL scripts (tables, KPIs, charts)
-│   ├── create_tables.sql
-│   ├── load_data.sql
-│   ├── kpis.sql
-│   └── charts_queries.sql
-└── powerbi/
-    └── pizza_dashboard.pbix
-
----
-
 ## 🧩 Data Model
 
 The dataset contains detailed information about each pizza order:
@@ -84,7 +66,7 @@ FROM pizzas;
 
 -- Average Order Value
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value
-FROM pizzas;
+FROM pizzas;```
 
 ## 📸 Dashboard Preview
 
