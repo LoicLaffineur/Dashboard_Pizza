@@ -69,6 +69,8 @@ SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value
 FROM pizzas;
 ```
 
+---
+
 ## 📸 Dashboard Preview
 
 Screenshots of the Power BI dashboard are available in the /dashboard/ folder.
@@ -81,6 +83,8 @@ The report includes:
 - Top/Bottom product analysis
 - Time‑based performance insights
 
+---
+
 ## 📁 Power BI File
 
 The full Power BI report is available here:
@@ -90,6 +94,8 @@ The full Power BI report is available here:
 The report can be opened using Power BI Desktop.
 Online publishing is not available because it requires a professional Power BI account.
 
+---
+
 ## 🧠 Business Insights (Summary)
 
 - **Classic and Supreme** pizzas generate the **highest revenue**, driven by strong demand and higher unit prices.
@@ -97,11 +103,15 @@ Online publishing is not available because it requires a professional Power BI a
 - **Fridays and weekends** show **peak order volume**, indicating leisure‑driven consumption.
 - Monthly trends reveal **seasonal fluctuations**, useful for staffing and inventory planning.
 
+---
+
 ## 🚀 What I Learned
 
 - Building a complete BI workflow from raw data to insights
 - Designing a clean and intuitive Power BI dashboard
 - Communicating insights in a business‑oriented way
+
+---
 
 ## 📬 Contact
 
