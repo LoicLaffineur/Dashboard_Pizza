@@ -66,7 +66,8 @@ FROM pizzas;
 
 -- Average Order Value
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value
-FROM pizzas;```
+FROM pizzas;
+```
 
 ## 📸 Dashboard Preview
 
