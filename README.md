@@ -107,5 +107,5 @@ Online publishing is not available because it requires a professional Power BI a
 
 **Loïc Laffineur**  
 Data Analyst & Data Scientist  
-LinkedIn: https://www.linkedin.com/in/loïc-laffineur/  
+LinkedIn: https://www.linkedin.com/in/loïc-laffineur-8a49bb180/  
 GitHub: https://github.com/LoicLaffineur
