@@ -92,24 +92,20 @@ Online publishing is not available because it requires a professional Power BI a
 
 ## 🧠 Business Insights (Summary)
 
-Classic and Supreme pizzas generate the highest revenue, driven by strong demand and higher unit prices.
-
-Large and Medium sizes dominate sales, showing customer preference for value‑oriented portions.
-
-Fridays and weekends show peak order volume, indicating leisure‑driven consumption.
-
-Monthly trends reveal seasonal fluctuations, useful for staffing and inventory planning.
+- **Classic and Supreme** pizzas generate the **highest revenue**, driven by strong demand and higher unit prices.
+- **Large and Medium** sizes **dominate sales**, showing customer preference for value‑oriented portions.
+- **Fridays and weekends** show **peak order volume**, indicating leisure‑driven consumption.
+- Monthly trends reveal **seasonal fluctuations**, useful for staffing and inventory planning.
 
 ## 🚀 What I Learned
 
-Building a complete BI workflow from raw data to insights
-
-Designing a clean and intuitive Power BI dashboard
-
-Communicating insights in a business‑oriented way
+- Building a complete BI workflow from raw data to insights
+- Designing a clean and intuitive Power BI dashboard
+- Communicating insights in a business‑oriented way
 
 ## 📬 Contact
-Loïc Laffineur  
+
+**Loïc Laffineur**
 Data Analyst & Data Scientist
 LinkedIn: https://www.linkedin.com/in/loïc-laffineur/  
 GitHub: https://github.com/LoicLaffineur
