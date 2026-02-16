@@ -78,9 +78,8 @@ The report includes:
 **Home page :** 
 
 ![Home_page](https://github.com/user-attachments/assets/e8ece958-105a-4bf1-bd61-127bbf321227)
-![Home_page_filtered](https://github.com/user-attachments/assets/0dd5b3e5-b1e5-47be-bcac-8aa1abbd74be)
 
-**Best Sellers :***
+**Best Sellers :**
 ![Best_Sellers_page](https://github.com/user-attachments/assets/2c863307-e694-4058-9ffa-804e2b64e3f5)
 
 
