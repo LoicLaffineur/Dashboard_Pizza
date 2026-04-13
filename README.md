@@ -52,7 +52,7 @@ SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value FROM pizza
 
 ### Best Sellers
 
-![Best_Sellers_page](dashboard/Best_Sellers_Page.jpg)
+![Best_Sellers_page](dashboard/Best_Sellers_page.jpg)
 
 ## Power BI File
 
