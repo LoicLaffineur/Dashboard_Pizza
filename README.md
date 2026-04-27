@@ -1,50 +1,72 @@
-# Pizza Sales Dashboard (Power BI)
+# Sales Performance Dashboard (Power BI)
 
-Full end-to-end Business Intelligence analysis based on one year of sales data from a fictional pizzeria.
-Demonstrates a complete BI workflow: SQL data preparation, KPI definition, and interactive dashboard design in Power BI.
+Track revenue, understand customer behavior, and optimize operations with a dynamic BI dashboard.
 
-## Project Overview
+This project showcases a complete Business Intelligence workflow, from raw sales data to an interactive dashboard used to monitor performance and support decision-making.
 
-One year of pizza sales analyzed to deliver clear business insights:
+## What This Dashboard Helps You Understand
 
-- Revenue performance
-- Customer ordering behavior
-- Best-selling and worst-selling products
-- Sales trends by day, month, category, and size
-- Operational KPIs for decision-making
+- How revenue evolves over time  
+- When customers are most likely to order  
+- Which products drive the most (and least) revenue  
+- How product categories and sizes impact sales  
+- Key performance indicators for daily business monitoring  
 
-## Technologies
+## Key Metrics Tracked
 
-- **Power BI Desktop** — data modeling, DAX, dashboard design
-- **PostgreSQL** — database creation, SQL queries, KPI calculations
-- **Excel/CSV** — source dataset
+Core KPIs used by managers to monitor performance:
 
-## Key KPIs
+- Total Revenue — overall business performance  
+- Total Orders — sales volume  
+- Average Order Value — customer spending behavior  
+- Average Pizzas per Order — basket size  
+- Top / Worst Products — product performance  
+- Revenue by Category & Size — pricing and positioning insights  
+- Orders by Day & Month — demand patterns
 
-Computed using SQL and Power BI DAX:
-
-- Total Revenue · Total Orders · Total Pizzas Sold
-- Average Order Value · Average Pizzas per Order
-- Top 5 Best-Selling Pizzas / Top 5 Worst-Selling Pizzas
-- Revenue by Category and Size
-- Orders by Day and Month
+## Example Data Queries
 
 ```sql
--- Total Revenue
 SELECT SUM(total_price) AS total_revenue FROM pizzas;
-
--- Average Order Value
 SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value FROM pizzas;
 ```
 
-## Business Insights
+## Key Business Insights
 
-- **Classic and Supreme** pizzas generate the highest revenue, driven by strong demand and higher unit prices
-- **Large and Medium** sizes dominate sales, reflecting customer preference for value-oriented portions
-- **Fridays and weekends** show peak order volume — leisure-driven consumption pattern
-- Monthly trends reveal seasonal fluctuations useful for staffing and inventory planning
+- High-performing categories (Classic, Supreme)  
+  → Focus marketing and promotions on these products  
 
-## Dashboard Preview
+- Strong demand for large sizes  
+  → Opportunity to optimize pricing and margins  
+
+- Peak activity on Fridays and weekends  
+  → Adjust staffing and inventory accordingly  
+
+- Seasonal trends across months  
+  → Anticipate demand and plan operations
+
+## How This Dashboard Is Used in a Business
+
+This dashboard can be used by:
+
+- Store managers to monitor daily performance  
+- Marketing teams to identify best-selling products  
+- Operations teams to plan staffing and inventory  
+- Business owners to track revenue and profitability  
+
+Example:  
+A manager can quickly identify low-performing products and remove or reprice them to improve margins.
+
+## Tech Stack
+
+- Power BI
+- PostgreSQL
+- SQL
+- DAX
+
+## Dashboard Overview
+
+Interactive dashboard designed for business users to quickly monitor performance and make decisions.
 
 ### Home page
 
@@ -54,6 +76,14 @@ SELECT SUM(total_price) / COUNT(DISTINCT order_id) AS avg_order_value FROM pizza
 
 ![Best_Sellers_page](dashboard/Best_Sellers_page.jpg)
 
-## Power BI File
+## Work With Me
 
-The full report is available at `/powerbi/pizza_dashboard.pbix` — open with Power BI Desktop.
+I build dashboards that turn raw data into clear business decisions.
+
+I can help you:
+- Design Power BI dashboards tailored to your business  
+- Define and track the right KPIs  
+- Connect and clean your data sources  
+- Make your data understandable for non-technical teams  
+
+Available for freelance projects.
